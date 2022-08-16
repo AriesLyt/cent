@@ -1,0 +1,65 @@
+#msg-list {
+  li {
+    font-size: 1.1rem;
+  }
+}
+
+
+#msg-list{
+  margin: unset;
+  padding: 1rem;
+  height: 85%;
+  list-style: none;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#msg-list li{
+  margin-bottom: 10px;
+}
+
+#msg-list li:last-child {
+  margin-bottom: unset;
+}
+
+#show-name {
+  margin-right: 20px;
+  font-size: 10px;
+}
+
+.sub-wrap {
+  margin-top: 30px;
+}
+
+input {
+  height: 40px;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  outline: unset;
+}
+
+#name-input {
+  margin-right: 20px;
+  width: 20%;
+}
+
+#msg-input {
+  margin: 0 auto;
+  width: 40%;
+}
+
+button {
+  width: 90px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: transparent;
+  border: 1px solid black;
+  outline: unset;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button.is-Ban {
+  border: 1px solid #B7B7B7;
+}
